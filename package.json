@@ -1,7 +1,7 @@
 {
 	"name": "svelte-svg-import",
-	"version": "1.0.0",
-	"description": "Import SVG images as Svelte components",
+	"version": "1.0.1",
+	"description": "Use SVG images as Svelte components",
 	"type": "module",
 	"main": "index.js",
 	"scripts": {
