@@ -10,10 +10,10 @@ Add Vite plugin `vite.config.js`:
 import svelteSvgImport from 'svelte-svg-import';
 
 export default defineConfig({
-	plugins: [
-		svelteSvgImport(),
-		sveltekit(),
-	],
+  plugins: [
+    svelteSvgImport(),
+    sveltekit(),
+  ],
 });
 ```
 
@@ -21,7 +21,7 @@ Import SVG file with `?svelte` suffix to use it as component:
 
 ```svelte
 <script>
-	import Image from 'image.svg?svelte';
+  import Image from 'image.svg?svelte';
 </script>
 
 <Image width="20" height="20" />
