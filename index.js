@@ -17,9 +17,10 @@ function process(source) {
 	source = source.replaceAll(comments, '');
 
 	// add props
-	source = source.replace('<svg', () => '<svg {...$$props}');
+	const svgGroups = new RegExp(/(<svg.*?)(>.*)/s);
+	const [, svgOpen, svgOther] = source.exec(svgGroups);
 
-	return source;
+	return `${svgOpen} {...$$props}${svgOther}`;
 }
 
 /**
