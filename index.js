@@ -18,7 +18,7 @@ function process(source) {
 
 	// add props
 	const svgGroups = new RegExp(/(<svg.*?)(>.*)/s);
-	const [, svgOpen, svgOther] = source.exec(svgGroups);
+	const [, svgOpen, svgOther] = svgGroups.exec(source);
 
 	return `${svgOpen} {...$$props}${svgOther}`;
 }
