@@ -29,7 +29,7 @@ function process(source) {
 export default function () {
 	return {
 		name: 'svelte-svg-import',
-		async transform(_, id, options) {
+		async transform(_, id, options = {}) {
 			if (!id.endsWith('.svg?svelte')) return null;
 			const filename = id.replace('?svelte', '');
 			const svg = await readFile(filename, { encoding: 'utf-8' });
