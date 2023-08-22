@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"lib": [
+			"DOM",
+			"ES2015",
+		],
+		"declaration": true,
+		"emitDeclarationOnly": true
+	},
+	"include": [
+		"index.js",
+	],
+}
