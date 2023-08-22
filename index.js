@@ -26,7 +26,7 @@ function process(source) {
 /**
  * @returns {import('vite').Plugin}
  */
-export default function () {
+export default function plugin() {
 	return {
 		name: 'svelte-svg-import',
 		async transform(_, id, options = {}) {
@@ -44,7 +44,6 @@ export default function () {
 
 			return {
 				code: result.js.code,
-				map: false,
 			};
 		},
 	};

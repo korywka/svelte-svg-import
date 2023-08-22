@@ -1,6 +1,6 @@
 {
 	"name": "svelte-svg-import",
-	"version": "1.4.0",
+	"version": "1.5.0",
 	"description": "Use SVG images as Svelte components",
 	"type": "module",
 	"main": "index.js",
@@ -10,12 +10,14 @@
 		"lint": "eslint . --fix"
 	},
 	"devDependencies": {
+		"@types/node": "20.5.3",
 		"eslint": "8.44.0",
 		"eslint-config-ecmascript": "2.5.0",
 		"typescript": "5.1.6"
 	},
 	"peerDependencies": {
-		"svelte": "^4.0.0"
+		"svelte": "^4.0.0",
+		"vite": "^4.0.0"
 	},
 	"files": [
 		"index.js",

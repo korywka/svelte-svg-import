@@ -1,12 +1,12 @@
 {
 	"compilerOptions": {
+		"checkJs": true,
 		"allowJs": true,
+		"noEmit": true,
 		"lib": [
-			"DOM",
-			"ES2015",
+			"dom",
+			"esnext",
 		],
-		"declaration": true,
-		"emitDeclarationOnly": true
 	},
 	"include": [
 		"index.js",
