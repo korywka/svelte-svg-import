@@ -27,4 +27,4 @@ Import SVG file with `?svelte` suffix to use it as component:
 <Image width="20" height="20" />
 ```
 
-For Typescript support add [types for suffix](./svg.d.ts) to your project (e.g. to `svg.d.ts`).
+For Typescript support add [types for .svg](./svg.d.ts) to your project (e.g. to `svg.d.ts`).
