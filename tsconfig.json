@@ -5,8 +5,8 @@
 		"declaration": true,
 		"emitDeclarationOnly": true,
 		"lib": [
-			"dom",
-			"esnext",
+			"DOM",
+			"ESNext",
 		],
 	},
 	"include": [
