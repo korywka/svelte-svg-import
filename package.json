@@ -10,10 +10,10 @@
 		"lint": "eslint . --fix"
 	},
 	"devDependencies": {
-		"@types/node": "20.5.3",
-		"eslint": "8.44.0",
-		"eslint-config-ecmascript": "2.5.0",
-		"typescript": "5.1.6"
+		"@types/node": "20.11.17",
+		"eslint": "8.56.0",
+		"eslint-config-ecmascript": "2.7.0",
+		"typescript": "5.3.3"
 	},
 	"peerDependencies": {
 		"svelte": "^4.0.0",
